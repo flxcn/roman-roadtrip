@@ -1,0 +1,5 @@
+
+The caravan sprite was created by Andrettin (http://opengameart.org/content/gnomish-caravan),
+licenses CC-By-SA 3.0 and GPL 2.0. 
+Developed from tutorials from Zenva Academy (http://zenva.com).
+Created for Education

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Roman Roadtrip</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div id="home"></div>
+
+    <div id="journey">
+      <div id="stats-area">
+        <div class="stat"><strong>Annus (AD)</strong><span id="stat-distance" class="stat-value"></span></div>
+        <div class="stat"><i>Milites</i><span id="stat-crew" class="stat-value"></span></div>
+        <div class="stat"><i>Iugum</i> <span id="stat-oxen" class="stat-value"></span></div>
+        <div class="stat"><i>Cibus</i> <span id="stat-food" class="stat-value"></span></div>
+        <div class="stat"><i>Pecunia (d.)</i> <span id="stat-money" class="stat-value"></span></div>
+        <div class="stat"><i>Armis</i><span id="stat-firepower" class="stat-value"></span></div>
+        <div class="stat"><i>Libra</i> <span id="stat-weight" class="stat-value"></span><span id="stat-capacity" class="stat-value"></span></div>
+      </div>
+
+
+      <div class="updates-area" id="updates-area"></div>
+
+        <div id="history" class="hidden">
+          <button>Onwards!</button>
+        </div>
+
+        <div id="shop" class="hidden">
+          <div id="prods" text-align='center'>
+          </div>
+          <button>Leave Shop</button>
+        </div>
+
+        <div id="attack" class="hidden">
+          <div id="attack-description"></div>
+          <button id="fight">Protect the Emperor!</button>
+          <button id="runaway">Join the Conspirators!</button>
+        </div>
+
+      <div id="progress-area">
+        <p>
+          <img id="caravan" src="images/caravan.png"/>
+          <img id="trees" src="images/trees.png" align="middle"/>
+        </p>
+      </div>
+
+      <footer>
+        <p>
+          <strong>
+            Roman Roadtrip
+          </strong>
+        </p>
+      </footer>
+
+    <div id="event"></div>
+    <script src="js/Event.js"></script>
+    <script src="js/Caravan.js"></script>
+    <script src="js/UI.js"></script>
+    <script src="js/Game.js"></script>
+
+
+  </body>
+</html>
